@@ -222,6 +222,7 @@ img {
     object-fit: cover;
     box-shadow: 0 20px 60px rgba(0, 0, 0, .35);
     border: 6px solid rgba(255, 255, 255, .08);
+    transform: translateX(20px);
 }
 
 /* ================= TECH STACK ================= */
@@ -369,6 +370,12 @@ img {
     min-height: 90vh;
     padding-top: 46px;
     scroll-margin-top: 66px;
+}
+
+/* Move Projects content DOWN within its section */
+.section--projects .container {
+    margin-top: 50px;
+    /* adjust value as needed */
 }
 
 .project-list {
